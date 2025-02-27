@@ -86,7 +86,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(0,0,99)
   - RGB BRI
   - RGB BRD
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
