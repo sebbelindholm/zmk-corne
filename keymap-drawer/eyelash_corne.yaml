@@ -77,11 +77,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
-  - '&bl BL_ON'
+  - RGB TOG
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - '&bl BL_OFF'
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - RGB EFF
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
