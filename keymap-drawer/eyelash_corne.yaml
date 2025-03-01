@@ -69,9 +69,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-left-bold$$
-  - RETURN
-  - $$mdi:arrow-right-bold$$
   - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
