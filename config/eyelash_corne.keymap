@@ -65,9 +65,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC           &kp Q                     &kp W                  &kp E                     &kp R                       &kp T                                      &mmv MOVE_UP                     &kp Y        &kp U                        &kp I                      &kp O                          &kp P                                &kp SE_A_RING
-&kp TAB           &mod_tap_idle LEFT_ALT A  &mod_tap_idle LCTRL S  &mod_tap_idle LEFT_GUI D  &mod_tap_idle LEFT_SHIFT F  &kp G                      &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &kp H        &mod_tap_idle RIGHT_SHIFT J  &mod_tap_idle RIGHT_GUI K  &mod_tap_idle RIGHT_CONTROL L  &mod_tap_idle RIGHT_ALT SE_O_UMLAUT  &kp SE_A_UMLAUT
-&kp SE_LESS_THAN  &kp Z                     &kp X                  &kp C                     &mt V V                     &kp B        &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M                        &kp SE_COMMA               &kp SE_DOT                     &kp SE_MINUS                         &kp SE_TILDE
+&kp ESC           &kp Q                     &kp W                  &kp E                     &kp R                       &kp T                                      &mmv MOVE_UP                     &kp Y        &kp U                        &kp I                      &kp O                          &kp P                                &kp SV_A_RING
+&kp TAB           &mod_tap_idle LEFT_ALT A  &mod_tap_idle LCTRL S  &mod_tap_idle LEFT_GUI D  &mod_tap_idle LEFT_SHIFT F  &kp G                      &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &kp H        &mod_tap_idle RIGHT_SHIFT J  &mod_tap_idle RIGHT_GUI K  &mod_tap_idle RIGHT_CONTROL L  &mod_tap_idle RIGHT_ALT SV_O_UMLAUT  &kp SV_A_UMLAUT
+&kp SV_LESS_THAN  &kp Z                     &kp X                  &kp C                     &kp V                       &kp B        &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M                        &kp SV_COMMA               &kp SV_DOT                     &kp SV_MINUS                         &kp SV_TILDE
                                                                    &kp LGUI                  &mo 1                       &lt 3 SPACE                                                                 &lt 3 ENTER  &mo 2                        &kp BACKSPACE
             >;
 
@@ -77,9 +77,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans           &kp SE_N1       &kp SE_N2     &kp SE_N3     &kp SE_N4     &kp SE_N5                                &kp UP_ARROW             &kp SE_N6        &kp SE_N7                      &kp SE_N8        &kp SE_N9        &kp SE_N0     &kp SE_PLUS
+&trans           &kp SV_N1       &kp SV_N2     &kp SV_N3     &kp SV_N4     &kp SV_N5                                &kp UP_ARROW             &kp SV_N6        &kp SV_N7                      &kp SV_N8        &kp SV_N9        &kp SV_N0     &kp SV_PLUS
 &trans           &trans          &trans        &trans        &trans        &bt BT_SEL 3                   &kp LEFT  &mkp RCLK     &kp RIGHT  &mkp LCLK        &trans                         &trans           &trans           &trans        &kp PG_UP
-&rgb_ug RGB_TOG  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &rgb_ug RGB_EFF  &kp C_MUTE              &kp DOWN                 &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,0,99)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp SE_COLON  &kp PG_DN
+&rgb_ug RGB_TOG  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &rgb_ug RGB_EFF  &kp C_MUTE              &kp DOWN                 &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,0,99)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp SV_COLON  &kp PG_DN
                                                &trans        &trans        &trans                                                            &trans           &trans                         &trans
             >;
 
@@ -89,10 +89,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SE_EXCL   &kp SE_AT     &kp SE_HASH  &kp SE_DLLR  &kp SE_PRCNT                            &mmv MOVE_UP                     &kp SE_AMPS   &kp SE_SLASH  &kp SE_LEFT_PARENTHESIS  &kp SE_RPAR  &kp SE_ASTRK  &kp SE_QUESTION
-&trans  &bt BT_CLR    &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SE_MINUS  &kp SE_EQUAL  &kp SE_LBKT              &kp SE_RBKT  &kp SE_BSLH   &kp SE_GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none        &none        &mkp MB5      &trans                    &mmv MOVE_DOWN                   &kp SE_UNDER  &kp SE_PLUS   &kp SE_LBRC              &kp SE_RBRC  &kp SE_PIPE   &kp SE_COLON
-                                    &trans       &trans       &kp SPACE                                                                &kp RET       &trans        &trans
+&trans  &kp SV_EXCL   &kp SV_AT     &kp SV_HASH  &kp SV_DOLLAR  &kp SV_PERCENT                            &mmv MOVE_UP                     &kp SV_AMPERSAND  &kp SV_SLASH  &kp SV_LPAR  &kp SV_RPAR  &kp SV_ASTRK      &kp SV_QUESTION
+&trans  &bt BT_CLR    &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_MINUS      &kp SV_EQUAL  &kp SV_LBKT  &kp SV_RBKT  &kp SV_BACKSLASH  &kp SV_GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none        &none          &mkp MB5        &trans                    &mmv MOVE_DOWN                   &kp SV_UNDER      &kp SV_PLUS   &kp SV_LBRC  &kp SV_RBRC  &kp SV_PIPE       &kp SV_COLON
+                                    &trans       &trans         &kp SPACE                                                                  &kp RET           &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -101,9 +101,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2  &kp F3       &kp F4   &kp F5                                 &mmv MOVE_UP                     &soft_off    &kp SE_N7  &kp SE_N8  &kp SE_N9  &trans           &kp DEL
-&trans          &kp F6      &kp F7  &kp F8       &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp PRINTSCREEN  &kp HOME
-&trans          &sys_reset  &trans  &bootloader  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SE_N0    &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SCROLLLOCK   &kp SE_DLLR
+&studio_unlock  &kp F1      &kp F2  &kp F3       &kp F4   &kp F5                                 &mmv MOVE_UP                     &soft_off    &kp SV_N7  &kp SV_N8  &kp SV_N9  &trans           &kp DEL
+&trans          &kp F6      &kp F7  &kp F8       &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp SV_N4  &kp SV_N5  &kp SV_N6  &kp PRINTSCREEN  &kp HOME
+&trans          &sys_reset  &trans  &bootloader  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SV_N0    &kp SV_N1  &kp SV_N2  &kp SV_N3  &kp SCROLLLOCK   &kp SV_DLLR
                                     &trans       &trans   &trans                                                                  &trans       &trans     &trans
             >;
 
