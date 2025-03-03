@@ -89,9 +89,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SE_EXCL   &kp SE_AT     &kp SE_HASH  &kp SE_DLLR  &kp SE_PRCNT                            &mmv MOVE_UP                     &kp SE_AMPS   &kp SE_SLASH  &kp SE_LEFT_PARENTHESIS  &kp SE_RPAR  &kp ASTRK    &kp SE_BACKSLASH
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK    &mkp RCLK    &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SE_MINUS  &kp SE_EQUAL  &kp SE_LBKT              &kp SE_RBKT  &kp BSLH     &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none        &none        &mkp MB5      &trans                    &mmv MOVE_DOWN                   &kp SE_UNDER  &kp SE_PLUS   &kp SE_LBRC              &kp SE_RBRC  &kp SE_PIPE  &kp SE_COLON
+&trans  &kp SE_EXCL   &kp SE_AT     &kp SE_HASH  &kp SE_DLLR  &kp SE_PRCNT                            &mmv MOVE_UP                     &kp SE_AMPS   &kp SE_SLASH  &kp SE_LEFT_PARENTHESIS  &kp SE_RPAR  &kp SE_ASTRK  &kp SE_QUESTION
+&trans  &bt BT_CLR    &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SE_MINUS  &kp SE_EQUAL  &kp SE_LBKT              &kp SE_RBKT  &kp SE_BSLH   &kp SE_GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none        &none        &mkp MB5      &trans                    &mmv MOVE_DOWN                   &kp SE_UNDER  &kp SE_PLUS   &kp SE_LBRC              &kp SE_RBRC  &kp SE_PIPE   &kp SE_COLON
                                     &trans       &trans       &kp SPACE                                                                &kp RET       &trans        &trans
             >;
 
@@ -101,9 +101,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2  &kp F3       &kp F4   &kp F5                                 &mmv MOVE_UP                     &kp F6       &kp SE_N7  &kp SE_N8  &kp SE_N9  &trans           &kp DEL
-&trans          &kp F6      &kp F7  &kp F8       &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp PRINTSCREEN  &trans
-&trans          &sys_reset  &trans  &bootloader  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SE_N0    &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SCROLLLOCK   &trans
+&studio_unlock  &kp F1      &kp F2  &kp F3       &kp F4   &kp F5                                 &mmv MOVE_UP                     &soft_off    &kp SE_N7  &kp SE_N8  &kp SE_N9  &trans           &kp DEL
+&trans          &kp F6      &kp F7  &kp F8       &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp PRINTSCREEN  &kp HOME
+&trans          &sys_reset  &trans  &bootloader  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SE_N0    &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SCROLLLOCK   &kp SE_DLLR
                                     &trans       &trans   &trans                                                                  &trans       &trans     &trans
             >;
 
