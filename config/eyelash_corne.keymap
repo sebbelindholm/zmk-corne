@@ -87,10 +87,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SV_EXCL   &kp SV_AT     &kp SV_HASH  &kp SV_DOLLAR  &kp SV_PERCENT                            &mmv MOVE_UP                     &kp SV_AMPERSAND  &kp SV_SLASH  &kp SV_LPAR  &kp SV_RPAR  &kp SV_ASTRK      &kp SV_QUESTION
-&trans  &bt BT_CLR    &kp LEFT      &kp DOWN     &kp UP         &kp RIGHT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_APOS       &kp SV_EQUAL  &kp SV_LBKT  &kp SV_RBKT  &kp SV_BACKSLASH  &kp SV_GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none        &none          &mkp MB5        &trans                    &mmv MOVE_DOWN                   &kp SV_UNDER      &kp SV_PLUS   &kp SV_LBRC  &kp SV_RBRC  &kp SV_PIPE       &kp SV_COLON
-                                    &trans       &trans         &kp SPACE                                                                  &kp RET           &trans        &trans
+&trans  &kp SV_EXCL   &kp SV_AT     &kp SV_HASH  &kp SV_DOLLAR   &kp SV_PERCENT                            &mmv MOVE_UP                     &kp SV_AMPERSAND  &kp SV_SLASH  &kp SV_LPAR  &kp SV_RPAR  &kp SV_ASTRK      &kp SV_QUESTION
+&trans  &bt BT_CLR    &kp LEFT      &kp UP       &kp DOWN_ARROW  &kp RIGHT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SV_APOS       &kp SV_EQUAL  &kp SV_LBKT  &kp SV_RBKT  &kp SV_BACKSLASH  &kp SV_GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none        &none           &mkp MB5        &trans                    &mmv MOVE_DOWN                   &kp SV_UNDER      &kp SV_PLUS   &kp SV_LBRC  &kp SV_RBRC  &kp SV_PIPE       &kp SV_COLON
+                                    &trans       &trans          &kp SPACE                                                                  &kp RET           &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
