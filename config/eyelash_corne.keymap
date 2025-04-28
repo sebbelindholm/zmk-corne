@@ -63,10 +63,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC           &kp Q                     &kp SV_W               &kp E                     &kp R                       &kp T                                      &mmv MOVE_UP                     &kp Y        &kp U                        &kp I                      &kp O                          &kp P                                &kp SV_A_RING
-&kp TAB           &mod_tap_idle LEFT_ALT A  &mod_tap_idle LCTRL S  &mod_tap_idle LEFT_GUI D  &mod_tap_idle LEFT_SHIFT F  &kp G                      &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &kp H        &mod_tap_idle RIGHT_SHIFT J  &mod_tap_idle RIGHT_GUI K  &mod_tap_idle RIGHT_CONTROL L  &mod_tap_idle RIGHT_ALT SV_O_UMLAUT  &kp SV_A_UMLAUT
-&kp SV_LESS_THAN  &kp Z                     &kp X                  &kp C                     &kp V                       &kp B        &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M                        &kp SV_COMMA               &kp SV_DOT                     &kp SV_MINUS                         &kp SV_TILDE
-                                                                   &kp LGUI                  &mo 1                       &lt 3 SPACE                                                                 &lt 3 ENTER  &mo 2                        &kp BACKSPACE
+&kp ESC           &kp Q                     &kp SV_W               &kp E                     &kp R                       &kp T                                         &mmv MOVE_UP                     &kp Y        &kp U                        &kp I                      &kp O                          &kp P                                &kp SV_A_RING
+&kp TAB           &mod_tap_idle LEFT_ALT A  &mod_tap_idle LCTRL S  &mod_tap_idle LEFT_GUI D  &mod_tap_idle LEFT_SHIFT F  &kp G                         &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &kp H        &mod_tap_idle RIGHT_SHIFT J  &mod_tap_idle RIGHT_GUI K  &mod_tap_idle RIGHT_CONTROL L  &mod_tap_idle RIGHT_ALT SV_O_UMLAUT  &kp SV_A_UMLAUT
+&kp SV_LESS_THAN  &kp Z                     &kp X                  &kp C                     &kp V                       &kp B           &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M                        &kp SV_COMMA               &kp SV_DOT                     &kp SV_MINUS                         &kp SV_TILDE
+                                                                   &kp LGUI                  &mo 1                       &lt 3 SV_SPACE                                                                 &lt 3 ENTER  &mo 2                        &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
